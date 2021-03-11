@@ -1,0 +1,16 @@
+C:\Users\yauch\source\repos\CubeSolver\obj\x86\Debug\CubeSolverv2.csprojAssemblyReference.cache
+C:\Users\yauch\source\repos\CubeSolver\obj\x86\Debug\CubeSolver.Form1.resources
+C:\Users\yauch\source\repos\CubeSolver\obj\x86\Debug\CubeSolverv2.csproj.GenerateResource.cache
+C:\Users\yauch\source\repos\CubeSolver\obj\x86\Debug\CubeSolverv2.csproj.CoreCompileInputs.cache
+C:\Users\yauch\source\repos\CubeSolver\bin\Debug\ConsoleApplication.exe.config
+C:\Users\yauch\source\repos\CubeSolver\bin\Debug\ConsoleApplication.exe
+C:\Users\yauch\source\repos\CubeSolver\bin\Debug\ConsoleApplication.pdb
+C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.dll
+C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.Video.dll
+C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.xml
+C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.Video.xml
+C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\yauch\source\repos\CubeSolver\obj\x86\Debug\CubeSolverv2.csproj.CopyComplete
+C:\Users\yauch\source\repos\CubeSolver\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\yauch\source\repos\CubeSolver\obj\x86\Debug\ConsoleApplication.pdb
