@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 namespace CubeSolver
 {
-    //WELCOME TO VERSION 1.0
+    //WELCOME TO VERSION 2.0
     //v2.0 that will have the image processor and console app and BFS!
     //v3.0 will image processor and 3d game engine and console app
     //v4.0 will not use the console app
