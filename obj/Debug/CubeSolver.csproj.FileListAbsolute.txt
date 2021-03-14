@@ -11,6 +11,4 @@ C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.Video.dll
 C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.xml
 C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.Video.xml
 C:\Users\yauch\source\repos\CubeSolver\bin\Debug\AForge.Video.DirectShow.xml
-C:\Users\yauch\source\repos\CubeSolver\obj\Debug\CubeSolver.Form1.resources
-C:\Users\yauch\source\repos\CubeSolver\obj\Debug\CubeSolver.csproj.GenerateResource.cache
 C:\Users\yauch\source\repos\CubeSolver\obj\Debug\CubeSolver.csproj.CopyComplete
