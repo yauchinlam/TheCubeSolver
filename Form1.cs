@@ -14,6 +14,7 @@ namespace CubeSolver
     
     public partial class Form1 : Form
     {
+        int i = 0;
         string appPath = @"C:\Users\yauch\OneDrive\Documents\GitHub\TheCubeSolver\images\";
         public Form1()
         {
@@ -68,8 +69,13 @@ namespace CubeSolver
         string message = "File saved sucessfully:";
         private void btnSave_Click(object sender, EventArgs e)
         {
-            pic.Image.Save(appPath+"SavedImage.bmp", System.Drawing.Imaging.ImageFormat.Bmp);
-            MessageBox.Show(message + "SavedImage.bmp");
+            string filename = "SavedImage" + i + ".bmp";
+            pic.Image.Save(appPath+filename, System.Drawing.Imaging.ImageFormat.Bmp);
+            MessageBox.Show(message + filename);
+            i++;
+            //change this to six
+            if (i >= 1)
+            { Application.Exit(); }
         }
 
         private void label1_Click(object sender, EventArgs e)

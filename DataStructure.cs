@@ -18,9 +18,17 @@ namespace CubeSolver
          *6=blue bottom of x
          *White, Orange and Green make the xyz Cartesian axis 
          */
-        public int[,,] theCube { get; set; }
-            
-            public DataStructure(int[,,] input)
+        public int[,,] theCube = new int[3, 2, 9]
+        {/*Since this is in a one 3D array of size 3,2,9 instead of six 3 by 3 3D array
+          *I was unable to use the rotation matrices so I had to create them based on different scenarios shown
+          *in the comments below each rotation.
+          */
+            { {1,1,1,1,1,1,1,1,1},{4,4,4,4,4,4,4,4,4}},
+            { {2,2,2,2,2,2,2,2,2},{5,5,5,5,5,5,5,5,5}},
+            { {3,3,3,3,3,3,3,3,3},{6,6,6,6,6,6,6,6,6}}
+        };
+
+    public DataStructure(int[,,] input)
             {
             theCube = input;
             }

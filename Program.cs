@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Drawing;
 namespace CubeSolver
 {
     //WELCOME TO VERSION 2.0
@@ -12,21 +13,24 @@ namespace CubeSolver
         static Form1 MyForm;
         static void Main(string[] args)
         {
-            int[,,] myCube = new int[3, 2, 9]
-        {/*Since this is in a one 3D array of size 3,2,9 instead of six 3 by 3 3D array
-          *I was unable to use the rotation matrices so I had to create them based on different scenarios shown
-          *in the comments below each rotation.
-          */
-            { {1,1,1,1,1,1,1,1,1},{4,4,4,4,4,4,4,4,4}},
-            { {2,2,2,2,2,2,2,2,2},{5,5,5,5,5,5,5,5,5}},
-            { {3,3,3,3,3,3,3,3,3},{6,6,6,6,6,6,6,6,6}}
-        };
-            DataStructure mysCube = new DataStructure(myCube);
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
+        //    int[,,] myCube = new int[3, 2, 9]
+        //{/*Since this is in a one 3D array of size 3,2,9 instead of six 3 by 3 3D array
+        //  *I was unable to use the rotation matrices so I had to create them based on different scenarios shown
+        //  *in the comments below each rotation.
+        //  */
+        //    { {1,1,1,1,1,1,1,1,1},{4,4,4,4,4,4,4,4,4}},
+        //    { {2,2,2,2,2,2,2,2,2},{5,5,5,5,5,5,5,5,5}},
+        //    { {3,3,3,3,3,3,3,3,3},{6,6,6,6,6,6,6,6,6}}
+        //};
+        //    DataStructure mysCube = new DataStructure(myCube);
+        //    //Application.EnableVisualStyles();
+        //    //Application.SetCompatibleTextRenderingDefault(false);
 
-            MyForm = new Form1();
-            Application.Run(MyForm);
+          //MyForm = new Form1();
+          //Application.Run(MyForm);
+            string appPath = @"C:\Users\yauch\OneDrive\Documents\GitHub\TheCubeSolver\images\";
+            Bitmap image0 = (Bitmap)Image.FromFile(appPath+"SavedImage0.bmp");
+            ConvertToVirtual.Convert1(image0);
             //bool endApp = false;
             //Console.WriteLine("Virtual Cube in C#\r");
             //Console.WriteLine("------------------------");
