@@ -26,3 +26,5 @@ C:\Users\yauch\OneDrive\Documents\GitHub\TheCubeSolver\obj\Debug\CubeSolver.cspr
 C:\Users\yauch\OneDrive\Documents\GitHub\TheCubeSolver\obj\Debug\CubeSolver.csproj.CopyComplete
 C:\Users\yauch\OneDrive\Documents\GitHub\TheCubeSolver\obj\Debug\CubeSolver.exe
 C:\Users\yauch\OneDrive\Documents\GitHub\TheCubeSolver\obj\Debug\CubeSolver.pdb
+C:\Users\yauch\OneDrive\Documents\GitHub\TheCubeSolver\obj\Debug\CubeSolver.Form1.resources
+C:\Users\yauch\OneDrive\Documents\GitHub\TheCubeSolver\obj\Debug\CubeSolver.csproj.GenerateResource.cache

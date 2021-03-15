@@ -9,6 +9,7 @@ namespace CubeSolver
     //v5.0 will be an app.
     class Program
     {
+        static Form1 MyForm;
         static void Main(string[] args)
         {
             int[,,] myCube = new int[3, 2, 9]
@@ -21,36 +22,40 @@ namespace CubeSolver
             { {3,3,3,3,3,3,3,3,3},{6,6,6,6,6,6,6,6,6}}
         };
             DataStructure mysCube = new DataStructure(myCube);
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
 
-            bool endApp = false;
-            Console.WriteLine("Virtual Cube in C#\r");
-            Console.WriteLine("------------------------");
-            Console.WriteLine("Because Rubik's Cube is patented...\r");
-            Console.WriteLine("------------------------");
-            mysCube.Color();
-            //This is to make it not a long amount of code shown on console app.
-            Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
-            if (Console.ReadLine() == "n") endApp = true;
-            Console.Clear();
-            //allow them continuous interface with it until they get bored
-            while (!endApp)
-            {
-                mysCube.Color();
-                Console.WriteLine("Type a rotation for the cube, and then press Enter: ");
-                Console.Write("Your choices are:\n");
-                Console.Write("w for White,  r for Red, b for Blue, y for Yellow, o for Orange, and g for Green, \n");
-                string input1;
-                input1 = Console.ReadLine();
-                Console.Clear();
-                UserInput.DoOperation(input1, mysCube).Color();
-                Console.WriteLine($"You just rotated {input1} by 90 degrees clockwise\n");
-                Console.WriteLine("------------------------\n");
+            MyForm = new Form1();
+            Application.Run(MyForm);
+            //bool endApp = false;
+            //Console.WriteLine("Virtual Cube in C#\r");
+            //Console.WriteLine("------------------------");
+            //Console.WriteLine("Because Rubik's Cube is trademarked...\r");
+            //Console.WriteLine("------------------------");
+            //mysCube.Color();
+            ////This is to make it not a long amount of code shown on console app.
+            //Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+            //if (Console.ReadLine() == "n") endApp = true;
+            //Console.Clear();
+            ////allow them continuous interface with it until they get bored
+            //while (!endApp)
+            //{
+            //    mysCube.Color();
+            //    Console.WriteLine("Type a rotation for the cube, and then press Enter: ");
+            //    Console.Write("Your choices are:\n");
+            //    Console.Write("w for White,  r for Red, b for Blue, y for Yellow, o for Orange, and g for Green, \n");
+            //    string input1;
+            //    input1 = Console.ReadLine();
+            //    Console.Clear();
+            //    UserInput.DoOperation(input1, mysCube).Color();
+            //    Console.WriteLine($"You just rotated {input1} by 90 degrees clockwise\n");
+            //    Console.WriteLine("------------------------\n");
 
-                // Wait for the user to respond before closing.
-                Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
-                if (Console.ReadLine() == "n") { endApp = true; }
-                Console.Clear();
-            } 
+            //    // Wait for the user to respond before closing.
+            //    Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+            //    if (Console.ReadLine() == "n") { endApp = true; }
+            //    Console.Clear();
+            //} 
 
         }
     }
